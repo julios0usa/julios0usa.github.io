@@ -3,7 +3,7 @@ body{
     background-image: url(/Img/Background.png);
 }
 
-.tea{
+header#cabeca{
     background-color: rgb(255, 255, 255);
     width: 70vh;
     height: 5vh;
