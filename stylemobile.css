@@ -17,7 +17,7 @@
         min-height: 100vh;
     }
     
-    header {
+    .tea {
         background-color: white;
         min-width: 300px;
         padding: 5px;
