@@ -1,68 +1,94 @@
 @charset "UTF-8";
 
+/* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
 
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
 
     body {
-        background: url(/Img/Background.png);
-        background-size: cover;
+        background: url(autista.jpg);
+        background-size: contain;
         background-position: center;
+        background-attachment: fixed;
+        width: 100%;
         min-height: 100vh;
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        padding: 10px;
     }
-
-    .tea, .txt, .carac, .txtcarac {
-        max-width: 380px;
-        margin: 20px auto;
-        padding: 15px;
-        border-radius: 12px;
+    
+    header {
         background-color: white;
-    }
-
-    .tea {
+        min-width: 300px;
+        padding: 5px;
+        border-radius: 20px;
         text-align: center;
-        background-color: #e6f0ff;
-        font-weight: bold;
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    header h2 {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.2;
+        color: #2d3748;
     }
 
-    .txt {
-        text-align: justify;
+    main {
+        padding: 1rem;
+        margin: auto;
+        width: 300px;
+        border-radius: 30px;
+    }
+    
+    .txte {
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-indent: 20px;
+        text-align: justify;
+        background-color: white;
+        padding: 10px;
+        width: 320px;
+        border-radius: 10px;
     }
 
     .carac {
+        background-color: white;
+        min-width: 300px;
+        padding: 5px;
+        border-radius: 20px;
         text-align: center;
-        font-weight: bold;
-        background-color: #fff3cd;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
-    .txtcarac ul {
-        list-style-type: disc;
-        padding-left: 20px;
-    }
-
-    .txtcarac li {
-        margin-bottom: 15px;
-    }
-
-    .txtcarac p {
-        margin: 5px 0;
-        text-align: justify;
+    .txtcarac {
+        background-color: white;
+        width: 320px;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        padding: 20px;
     }
 
     .ident {
         font-weight: bold;
-        display: block;
+    }
+
+    .list {
+        margin-left: 30px;
     }
 
     .pcarac {
-        margin-top: 5px;
+        text-align: justify;
     }
+
 }
