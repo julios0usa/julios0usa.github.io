@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body{
+    background-image: url(/Img/Background.png);
+}
+
+.tea{
+    background-color: rgb(255, 255, 255);
+    width: 70vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5vh;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+
+.txt{
+    background-color: white;
+    width: 80vh;
+    height: 20vh;
+    display: block;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 2vh;
+    text-align: justify;
+}
+
+.txt2{
+    background-color: rgb(255, 255, 255);
+    width: 80vh;
+    height: 23vh;
+    display: block;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 2vh;
+    text-align: justify;
+}
+
+.txt3{
+    background-color: rgb(255, 255, 255);
+    width: 80vh;
+    height: 23vh;
+    display: block;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 2vh;
+    text-align: justify;
+}
+
+.carac{
+    background-color: white;
+    width: 40vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+.atvhiperfoco{
+    background-color: white;
+    width: 88vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.txtcarac{
+    background-color: white;
+    width: 80vh;
+    height: 60vh;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2vh;
+    margin-top: 2vh;
+}
+
+.txtnivel{
+    background-color: white;
+    width: 80vh;
+    height: 56vh;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2vh;
+    margin-top: 2vh;
+}
+
+.list{
+    font-weight: bold;
+}
+
+.credits2{
+    background-color: white;
+    width: 80vh;
+    height: 43vh;
+    position: relative;
+    border-radius: 2vh;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2vh;
+    margin-top: 2vh;
+
+    
+}
+
+.credits1{
+    background-color: rgb(255, 255, 255);
+    width: 40vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5vh;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
