@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body{
-    background-image: url(Img/Background.png);
+    background-image: url(/Img/Background.png);
 }
 
-header#cabeca{
+.tea{
     background-color: rgb(255, 255, 255);
     width: 70vh;
     height: 5vh;
