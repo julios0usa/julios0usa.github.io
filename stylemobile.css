@@ -49,11 +49,11 @@
     }
 
     .txtcarac li {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .txtcarac p {
-        margin: 5px 0 10px 15px;
+        margin: 5px 0;
         text-align: justify;
     }
 
