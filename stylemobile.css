@@ -28,14 +28,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .tea {
-        font-size: 1.6rem;
-        margin-bottom: 0.8rem;
-        line-height: 1.2;
-        color: #2d3748;
-        
-    }
 
     main {
         padding: 1rem;

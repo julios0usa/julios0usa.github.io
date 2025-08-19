@@ -105,6 +105,17 @@ body{
     font-weight: bold;
 }
 
+.credits1{
+    background-color: rgb(255, 255, 255);
+    width: 40vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 5vh;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
 .credits2{
     background-color: white;
     width: 80vh;
@@ -120,13 +131,9 @@ body{
     
 }
 
-.credits1{
-    background-color: rgb(255, 255, 255);
-    width: 40vh;
-    height: 5vh;
-    text-align: center;
-    border-radius: 5vh;
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 2vh;
+.img{
+    width: 35vh;
+    position: absolute;
+    top: 12%;
+    left: 50%;
 }
