@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-image: url(/Img/Background.png);
+    background-image: url(Img/Background.png);
 }
 
 header#cabeca{
