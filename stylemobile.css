@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url(/Img/Background.png);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 10px;
+    }
+
+    .tea, .txt, .carac, .txtcarac {
+        max-width: 380px;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    .tea {
+        text-align: center;
+        background-color: #e6f0ff;
+        font-weight: bold;
+    }
+
+    .txt {
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    .carac {
+        text-align: center;
+        font-weight: bold;
+        background-color: #fff3cd;
+    }
+
+    .txtcarac ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .txtcarac li {
+        margin-bottom: 10px;
+    }
+
+    .txtcarac p {
+        margin: 5px 0 10px 15px;
+        text-align: justify;
+    }
+
+    .ident {
+        font-weight: bold;
+        display: block;
+    }
+
+    .pcarac {
+        margin-top: 5px;
+    }
+}
