@@ -3,6 +3,36 @@ body{
     background-image: url(/Img/Background.png);
 }
 
+.headpage {
+  display: flex;
+  justify-content: start;
+  gap: 20px; /* espaço entre os links */
+  background-color: rgb(255, 255, 255); /* cor de fundo do cabeçalho */
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 4vh;
+  width: 70vh;
+}
+.headpage a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  width: 15vh;
+  height: 4vh;
+  border: 1px solid black;
+  border-radius: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.headpage a:hover {
+  text-decoration: underline;
+}
+
+
 .tea{
     background-color: rgb(255, 255, 255);
     width: 70vh;
