@@ -3,6 +3,11 @@
 /* Estilos específicos para dispositivos móveis */
 @media screen and (max-width: 768px) {
 
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
     body {
         background: url(/Img/Background.png);
         background-size: contain;
