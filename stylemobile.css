@@ -64,8 +64,7 @@
 
     .txtcarac {
         background-color: white;
-        min-width: 300px;
-        max-width: 330px;
+        width: 350px;
         display: block;
         margin: auto;
         border-radius: 10px;
