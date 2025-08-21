@@ -18,9 +18,9 @@
     }
     
     .tea {
-        background-color: blue;
-        height: 1%;
-        padding: 5px;
+        background-color: white;
+        height: 1vh;
+        padding: 3px;
         border-radius: 20px;
         text-align: center;
         display: block;
@@ -66,7 +66,7 @@
     .txtcarac {
         background-color: white;
         width: 450px;
-        height: 450px;
+        height: 420px;
         display: block;
         margin: auto;
         border-radius: 10px;
