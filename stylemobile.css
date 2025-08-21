@@ -24,8 +24,6 @@
         text-align: center;
         display: block;
         margin: auto;
-        margin-bottom: 20px;
-        margin-top: 20px;
     }
     
      h2 {
@@ -48,6 +46,7 @@
         min-width: 300px;
         max-width: 500px;
         border-radius: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 
@@ -66,7 +65,7 @@
     .txtcarac {
         background-color: white;
         min-width: 300px;
-        max-width: 360px;
+        max-width: 330px;
         display: block;
         margin: auto;
         border-radius: 10px;
